@@ -1,6 +1,5 @@
 <?php
-require __DIR__ .'/Models/Product.php';
-require __DIR__ .'/Models/toy.php';
+require_once __DIR__ .'/DB.php';
 
-
+var_dump($products[0]);
 ?>

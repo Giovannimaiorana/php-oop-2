@@ -8,7 +8,7 @@ class Product{
     protected $price;
     
 
-    public function __construct(string $productName, string $description, string $img, string $category, int $price){
+    public function __construct(string $productName, string $description, string $img, Category $category, $price){
         $this->productName = $productName;
         $this->description = $description;
         $this->img = $img;
