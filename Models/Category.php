@@ -1,5 +1,5 @@
 <?php
-class Category{
+class Categories{
     public $name;
     public $icon;
 

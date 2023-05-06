@@ -1,12 +1,10 @@
 <?php
 
-require_once __DIR__ .'/Product.php';
 
 class Toy extends Product{
-    private $year ;
     public  $COD;
 
-    public function __construct (  $productName, $COD,  $description,  $img, $category, $price){
+    public function __construct (  $productName, $description,  $img, $category, $price, $COD){
         parent::__construct ( $productName,  $description,  $img, $category,  $price);
         $this->COD=$COD;
     }

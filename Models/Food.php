@@ -1,10 +1,10 @@
 <?php
-require_once __DIR__ .'/Product.php';
+
 
 class Food extends Product{
-    private $type;// NB pollo o carne 
+    public $type;// NB pollo o carne 
 
-    public function __construct(  $productName, $type,  $description,  $img, $category, $price){
+    public function __construct(  $productName, $description,  $img, $category, $price,  $type){
         parent::__construct ( $productName,  $description,  $img, $category,  $price);
         $this->type=$type;
     }

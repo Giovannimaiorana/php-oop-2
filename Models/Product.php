@@ -5,10 +5,10 @@ class Product{
     public $description;
     public $img;
     public $category; //cane/gatto
-    protected $price;
+    public $price;
     
 
-    public function __construct(string $productName, string $description, string $img, Category $category, $price){
+    public function __construct( $productName,  $description,  $img, Categories $category, $price){
         $this->productName = $productName;
         $this->description = $description;
         $this->img = $img;
