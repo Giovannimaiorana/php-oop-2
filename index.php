@@ -30,7 +30,7 @@ require_once __DIR__ .'/DB.php';
             
             <?php if($product->getClassName() == 'Toy'){ ?>
                 <p class="card-text mt-4"> <?= $product->COD ?></p>
-                <p class="card-text mt-4"> <?= $product->Color ?></p>
+                <p class="card-text mt-4"> <?= $product->colorProd ?></p>
             <?php }else if($product->getClassName() == 'Sit'){ ?>
                 <p class="card-text mt-4"> <?= $product->material ?></p>
             <?php }else if($product->getClassName() == 'Food'){ ?>
