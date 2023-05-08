@@ -28,15 +28,14 @@ require_once __DIR__ .'/DB.php';
             <p class="card-text"> <?= $product->description ?></p>
             <p class="card-text"> <?= $product->price ?></p>
             
-            <? if($product == 'Toy'){?>
+            <?php if($product->getClassName() == 'Toy'){ ?>
                 <p class="card-text mt-4"> <?= $product->COD ?></p>
-            <?}elseif($product == 'Sit')?>
-            <? {?>
+                <p class="card-text mt-4"> <?= $product->Color ?></p>
+            <?php }else if($product->getClassName() == 'Sit'){ ?>
                 <p class="card-text mt-4"> <?= $product->material ?></p>
-            <?}elseif($product == 'Food')?>
-            <? {?>
+            <?php }else if($product->getClassName() == 'Food'){ ?>
                 <p class="card-text mt-4"> <?= $product->type ?></p>
-            <?}?>    
+            <?php }?>    
             <a href="#" class="btn btn-primary">Shop Now!</a>
 
         </div>

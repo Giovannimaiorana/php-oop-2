@@ -15,7 +15,9 @@ class Product{
         $this->category = $category;
         $this->price = $price;
     }
-    
+    public function getClassName(){
+        return get_class($this);
+    }
     public function getProductName(){
         return $this->productName;
     }
