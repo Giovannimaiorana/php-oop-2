@@ -14,5 +14,5 @@ $products=[
     new Food('Advance Diet Dog Articular','Alimento dietetico per cani completo ed equilibrato, formulato per il recupero e l\'appoggio nutrizionale al trattamento medico dei cani con affezioni articolari.','https://arcaplanet.vtexassets.com/arquivos/ids/276913/ID_62230_AVET_DOG_ARTICULAR_CARE_3KG.jpg?v=1768695482',$dog,'$25.49','pollo'),
     new Food('Hills Prescription, Alimento secco per Gatti','Alimento secco dietetico per gatti adulti con intolleranze o allergie alimentari','https://arcaplanet.vtexassets.com/arquivos/ids/269351/hills-prescription-diet-z-d-food-sensitivities-gatto.jpg?v=1769699296',$cat,'$65.90','carne'),
     new Sit('Cuccia Poker Ind','https://arcaplanet.vtexassets.com/arquivos/ids/273273/LOVEDI-CUCCIA-POKER-INDI-CM.53X53X23.jpg?v=1768082791', $cat, '$33.75','cuccia in tessuto','Tessuto'),
-]
+    ];
 ?>
